@@ -1,4 +1,4 @@
-
+console.log('ok');
 const slidebas = document.querySelector('.verslebas')
 window.addEventListener('scroll',() =>{
 const {scrollTop, clientHeight} = 
