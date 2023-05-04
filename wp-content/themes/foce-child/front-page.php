@@ -12,7 +12,6 @@ get_header();
             <h2>L'histoire</h2>
             <article id="" class="story__article">
                 <p><?php echo get_theme_mod('story'); ?>
-                Loin, très loin, au delà des monts Karma, à mille lieues des pays Mizukage et Kagura, demeurent les Nekos Nekos. Ils vivent en retrait, sur les côtes du Funato, un vaste océan d’arbres fruitier. Un petit ruisseau coule en leur lieu et les approvisionne en règlalades nécessaires en tout genre; un pays paradisiaque... Sauf pour Kawaneko, le premier chat à avoir développé une intolérance à la fleur d’oranger, qui malheureusement pour lui est la base de toute productions du pays. Serait-ce une maladie, un virus, le début d’une pandémie ou un sort jeté par le sorcier Jaakuna ? Kawaneko et sa bande partent en quête de réponses pour arrêter la malveillant Jaakuna et retrouver l’ordre chez les Nekos Nekos.
 </p>
             </article>
             <?php
@@ -39,7 +38,6 @@ get_header();
                     <h3>Le Lieu</h3>
                     </div>  
                     <p><?php echo get_theme_mod('place'); ?>
-                    Le pays fantastique des Nekos Nekos : Nekosnotochi. Loin, très loin, au delà des monts Karma, à mille lieues des pays Mizukage et Kagura. Ils vivent en retrait, sur les côtes du Funato, un vaste océan d’arbres fruitier. Un petit ruisseau coule en leur lieu et les approvisionne en règlalades nécessaires en tout genre; un pays paradisiaque... </p>
                     <div class="nuages">
                     
                     </div>
