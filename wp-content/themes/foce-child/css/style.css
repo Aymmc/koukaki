@@ -245,6 +245,7 @@ h2 ::after ::before {
     position: absolute;
     right: 440px;
     bottom: 400px;
+     filter: blur(17px);
 
 }
 
@@ -252,6 +253,7 @@ h2 ::after ::before {
     position: absolute;
     right: 100px;
     bottom: 500px;
+    filter: blur(17px);
 
 }
 
@@ -554,8 +556,8 @@ button.buttonmenu {
 
 }
 .swiper img {
-    height: 405.31061540684647px;
-    width: 383.93112892742363px;
+    height: 350px;
+    width: 300px;
 
     
 
@@ -566,4 +568,13 @@ button.buttonmenu {
 
 .bluecat , .yellowcat , .blackcat , .logomenu{
     animation: flottement 2s ease-in-out infinite;
+}
+
+.site-footer::after {
+    right: -4em;
+    bottom: 29.8em;
+}
+.site-footer::before {
+    left: 4em;
+    top: 6em;
 }
