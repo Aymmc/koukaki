@@ -9,24 +9,25 @@
  * @package Fleurs_d\'oranger_&_Chats_errants
  */
 
-?>  
+?>
 
 
 <div class="phpfooter">
-  
-	<footer id="colophon" class="site-footer">
-    <?php include_once('oscars.php'); ?>
-    <!-- <div> -->
-         <ul>
+
+    <footer id="colophon" class="site-footer">
+        <?php include_once('oscars.php'); ?>
+        <!-- <div> -->
+        <ul>
             <li><a href="#">Mentions Légales</a></li>
             <li><a href="#">STUDIO KOUKAKI</a></li>
             <li><a href="#">Contact</a></li>
         </ul>
-    <!-- </div -->
-	</footer><!-- #colophon -->
+        <!-- </div -->
+    </footer><!-- #colophon -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
 <!-- <script src="wp-content\themes\foce\js\script.js" defer> </script> -->
 </body>
+
 </html>

@@ -58,40 +58,40 @@ var swiper = new Swiper(".mySwiper", {
 // Paralaxe image 
 
 
-const Paralaxenuage1 = document.querySelector('.nuage1')
-window.addEventListener('scroll', () =>{
+// const Paralaxenuage1 = document.querySelector('.nuage1')
+// window.addEventListener('scroll', () =>{
 
-  const{scrollTop , clientHeight} = 
-  document.documentElement; 
-  const paralaxviewport1 = Paralaxenuage1.getBoundingClientRect().top;
-  if(scrollTop > (scrollTop + paralaxviewport1).toFixed() - clientHeight ){
-    Paralaxenuage1.classList.add('paralaxenuage')
-  }
+//   const{scrollTop , clientHeight} = 
+//   document.documentElement; 
+//   const paralaxviewport1 = Paralaxenuage1.getBoundingClientRect().top;
+//   if(scrollTop > (scrollTop + paralaxviewport1).toFixed() - clientHeight ){
+//     Paralaxenuage1.classList.add('paralaxenuage')
+//   }
 
-})
-const Paralaxenuage2 = document.querySelector('.nuage2')
-window.addEventListener('scroll', () =>{
+// })
+// const Paralaxenuage2 = document.querySelector('.nuage2')
+// window.addEventListener('scroll', () =>{
 
-  const{scrollTop , clientHeight} = 
-  document.documentElement; 
-  const paralaxviewport2 = Paralaxenuage2.getBoundingClientRect().top;
-  if(scrollTop > (scrollTop + paralaxviewport2).toFixed() - clientHeight ){
-    Paralaxenuage2.classList.add('paralaxenuage')
-  }
+//   const{scrollTop , clientHeight} = 
+//   document.documentElement; 
+//   const paralaxviewport2 = Paralaxenuage2.getBoundingClientRect().top;
+//   if(scrollTop > (scrollTop + paralaxviewport2).toFixed() - clientHeight ){
+//     Paralaxenuage2.classList.add('paralaxenuage')
+//   }
 
-})
+// })
 
 // Paralaxe titre 
-const Paralaxetitre = document.querySelector('.nuage1')
-window.addEventListener('scroll', () =>{
+// const Paralaxetitre = document.querySelector('.nuage1')
+// window.addEventListener('scroll', () =>{
 
-  const{scrollTop , clientHeight} = 
-  document.documentElement; 
-  const paralaxtitre1 = Paralaxetitre.getBoundingClientRect().top;
-  if(scrollTop > (scrollTop + paralaxtitre1).toFixed() ){
-    Paralaxetitre.classList.add('paralaxenuage')
-  }
-})
+//   const{scrollTop , clientHeight} = 
+//   document.documentElement; 
+//   const paralaxtitre1 = Paralaxetitre.getBoundingClientRect().top;
+//   if(scrollTop > (scrollTop + paralaxtitre1).toFixed() ){
+//     Paralaxetitre.classList.add('paralaxenuage')
+//   }
+// })
 // Menu 
 
 const button = document.querySelector('.buttonmenu');
@@ -121,4 +121,20 @@ const burger= document.querySelector('.buttonmenu');
 burger.addEventListener('click', ()=> {
   burger.classList.toggle('activee');
 
+});
+
+
+// Paralaxe nuage
+const nuage1= document.querySelector('.nuage1')
+const nuage2= document.querySelector('.nuage2')
+window.addEventListener("scroll", () => {
+  // Récupérer la valeur de défilement en pixels
+  let scrollValue = window.scrollY;
+
+  // Calculer la valeur de déplacement horizontal en fonction du défilement
+  let translateValue = scrollValue * 0.25; // Ajustez ce facteur selon votre préférence
+
+  // Appliquer la translation aux éléments d'image
+  nuage1.style.transform = `translateX(-${translateValue}px)`;
+  nuage2.style.transform = `translateX(-${translateValue}px)`;
 });
