@@ -35,9 +35,7 @@
     </a>
     <header id="masthead" class="site-header">
       <div id="site-navigation" class="main-navigation">
-        <!-- <button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"> -->
-        <span class="menu-icon"></span>
-        </button>
+
         <div class="menu">
           <a class="site-title " href="<?php echo esc_url(home_url('/')); ?>" rel="home"><?php bloginfo('name'); ?></a>
           <div class="buttonmenu">

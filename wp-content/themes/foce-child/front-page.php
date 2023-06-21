@@ -50,7 +50,6 @@ get_header();
         </article>
     </section>
 
-
     <section id="studio" class="verslebass">
         <h2>Studio Koukaki</h2>
         <div>

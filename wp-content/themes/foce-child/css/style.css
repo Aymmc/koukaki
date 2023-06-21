@@ -590,3 +590,7 @@ button.buttonmenu {
 .story #place { 
     background: url("../assets/images/place_bg.png")!important
 }
+
+.swiper-slide-active{
+    transform: scale(1.2)!important;
+}

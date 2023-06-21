@@ -54,7 +54,7 @@ var swiper = new Swiper(".mySwiper", {
       el: ".swiper-pagination",
     },
   });
-
+console.log(Swiper)
 // Paralaxe image 
 
 
@@ -116,10 +116,8 @@ backdrop.addEventListener('click', () => {
 });
 
 // button burger 
-
-const burger= document.querySelector('.buttonmenu'); 
-burger.addEventListener('click', ()=> {
-  burger.classList.toggle('activee');
+button.addEventListener('click', ()=> {
+  button.classList.toggle('activee');
 
 });
 
@@ -137,4 +135,14 @@ window.addEventListener("scroll", () => {
   // Appliquer la translation aux éléments d'image
   nuage1.style.transform = `translateX(-${translateValue}px)`;
   nuage2.style.transform = `translateX(-${translateValue}px)`;
+});
+
+
+// Animation menu 
+const animemenu = document.querySelectorAll('.animation');
+
+button.addEventListener('click', () => {
+  animemenu.forEach(function(element) {
+    element.classList.toggle('animationbas');
+  });
 });
